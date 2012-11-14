@@ -31,3 +31,11 @@ cookbook_file "/home/vagrant/.config/openbox/menu.xml" do
   owner "vagrant"
   group "vagrant"
 end
+
+cookbook_file "/home/vagrant/scratch/setup.sh" do
+  source "setup.sh"
+  mode "0754"
+  owner "vagrant"
+  group "vagrant"
+end
+

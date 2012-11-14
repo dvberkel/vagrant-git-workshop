@@ -27,6 +27,11 @@ the graphical enviroment run
 
     startx
 
+To setup a original repository goto the `scratch` directory and run
+the following command
+
+    ./setup.sh
+
 Tips
 ----
 
