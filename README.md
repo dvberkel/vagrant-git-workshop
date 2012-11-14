@@ -27,6 +27,12 @@ the graphical enviroment run
 
     startx
 
+Tips
+----
+
+* The `/vagrant` directory is a shared directory between the host and
+  the client. 
+
 [1]: http://vagrantup.com/ "Vagrant Homepage"
 [2]: http://git-scm.com/book/en/Git-Tools-Submodules "Git documentation on submodules"
 [3]: http://downloads.vagrantup.com/tags/v1.0.5 "Download page for vagrant"
