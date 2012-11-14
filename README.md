@@ -22,6 +22,11 @@ If [vagrant][1] is installed one can simple say
 
 See the [downloads page][3] for various versions of vagrant.
 
+When the virtual box is started login with the vagrant user. To start
+the graphical enviroment run
+
+    startx
+
 [1]: http://vagrantup.com/ "Vagrant Homepage"
 [2]: http://git-scm.com/book/en/Git-Tools-Submodules "Git documentation on submodules"
 [3]: http://downloads.vagrantup.com/tags/v1.0.5 "Download page for vagrant"
