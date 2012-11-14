@@ -39,3 +39,13 @@ cookbook_file "/home/vagrant/scratch/setup.sh" do
   group "vagrant"
 end
 
+cookbook_file "/home/vagrant/scratch/git-deamon.sh" do
+  source "git-deamon.sh"
+  mode "0754"
+  owner "vagrant"
+  group "vagrant"
+end
+
+
+
+

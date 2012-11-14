@@ -32,6 +32,10 @@ the following command
 
     ./setup.sh
 
+The server the repository over the web run
+
+    ./git-daemon.sh
+
 Tips
 ----
 
