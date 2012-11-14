@@ -17,3 +17,4 @@ chmod 754 greeting.pl
 git init
 git add greeting.pl
 git commit -m "fresh repository to work with"
+git config --bool core.bare true
