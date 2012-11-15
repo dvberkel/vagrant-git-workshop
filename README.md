@@ -32,9 +32,14 @@ the following command
 
     ./setup.sh
 
-The server the repository over the web run
+To server the repository over the web run
 
     ./git-daemon.sh
+
+The repository will be available at
+`git://localhost:9418/original_repo`. E.g.
+
+    git clone git://localhost:9418/original_repo
 
 Tips
 ----
